@@ -1,0 +1,12 @@
+{
+  "name": "hapi-horizon-example",
+  "version": "1.0.0",
+  "description": "Example of a barebones, but working app with express and horizon.io...I couldn't find one that worked, even the examples, so I made one of my own!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
