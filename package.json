@@ -4,9 +4,15 @@
   "description": "Example of a barebones, but working app with express and horizon.io...I couldn't find one that worked, even the examples, so I made one of my own!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^15.1.1",
+    "horizon": "^2.0.0",
+    "inert": "^4.0.2"
+  }
 }

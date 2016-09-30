@@ -12,8 +12,8 @@
 <marquee><h1 id='heading'></h1></marquee>
 <div id="app"></div>
 <script>
-  var horizon = new Horizon({authType: 'anonymous'})
   document.querySelector('h1').innerHTML = 'App doesn\'t work :((('
+  var horizon = new Horizon({authType: 'anonymous'})
   horizon.status(function(status) {console.log(status)})
   horizon.onReady(function() {
     document.querySelector('h1').innerHTML = 'App works!!!'
